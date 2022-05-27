@@ -1,0 +1,173 @@
+CC : Dropbox.. GDrive..
+
+Laptop / Mobile : Uploading the data to GDrive/Dbox.. : We can access this data anywhere from the world.. (Internet) : Another user : Storage
+
+
+Cloud COmputing : COmputing resources : (Network, Storage, Servers, Database) : 
+Pay-as-you-go : Pay for the resources you actually used
+
+Server : 1 Hr : --> 1 Hr only
+GDrive : 100gb plan / 200 gb / 1 TB 
+
+Tenancy : 
+--> Shared : underlying h/w shared with another customers
+--> Dedicated : Underlying h/w won;t share with another cust.. Dedicated to same user.
+
+
+Physical Server : COmpatability 
+Virtual Server : Upgrade / Downgrade
+
+Core Infra Services : Compute, Storage, Network, Hosting, Database, IAM, Security, Application, Migration
+
+
+Email Server : Exchange Server : 
+Gmail : internet
+
+CAPEX : Capital Expendature : No Capital Expen : No Upfront : 
+OPEX : Operational Expendature : Less OPEX : 
+
+100 : small server : deliver
+10k : medium server : 
+100M : Large 
+
+Pay-as-you-go : 
+Pay-as-you-grow : 
+
+_______________________________________________________________________________________
+
+Service Models : SaaS, PaaS, IaaS
+Deployment Models : Public, Private, Community, Hybdrid
+
+________________________________________________________________________________________
+
+Q : Who can learn AWS.??
+Ans : ANyone.. No Exp required to understand the AWS. (novoice)
+
+Q: Do we need to learn Linux.?
+Ans : Yes.. Basic OS knowledge required. (Free Linux Course).. Basic Linux.. 
+
+Q: AM into Operations (Sysadmins, networkadmin, storage admin, ABS, AppAdmin, System engineer), Learn aws..??
+ANS : BIG YES.. 
+
+Q: Am a developer, How AWS course helps me.? (Java, .net core, python, go, typescript ruby, node.js)
+Ans : CDK (Cloud development kit), Cloudformation (JSON/YAML), Cloud9)
+AWS Developer : 
+
+Q: What certifications this course covers..?
+Ans : Practitioner, sa-a, sysops-1, developer-a.. 700+
+
+Q: Is this course hands-on..? Realtime..??
+Ans; yes.. 95% hands-on.. Scenario based.. 
+
+Q: What migrations we cover..!!
+Ans : DMS, SMS (vmware, azure--> aws, gcp --> aws) : Videos
+
+Q: Does this course cover DevOps topics..??
+Ans : Yes.. AWS DevOps tools (Code commit, deploy, build, pipeline).. (Free Jenkins COurse.. Free GIT course)
+
+Only Web Browser with Interent..!!.. Putty/ command prompt
+
+7:30 - 8:30/45 AM IST.. 45 Days.. (MON-SAT.. Sat : practical session)
+
+Q: How many yrs of exp i can add once i done with the course..!!
+Ans : If you perform all the given tasks.. 3-4 Yrs exp.. 
+
+
+________________________________________________________________________________________
+
+D: 24/05/2021
+
+Deployment models : 
+--> Public Cloud : Open for all.. ex: aws, azure, gcp, rackspace, ibm cloud..
+	Maintenance: Service Provider
+
+--> Private Cloud : Open for Individual organisation..	
+	Main : dedicated team of org / AMC to 3rd party org
+
+--> Community Cloud : Group of org, they build the infra and only they use the infra..
+	Main : dedicated team of one the org / AMC to 3rd party org
+
+--> Hybrid Cloud : Combination of one or more cloud platforms.. Ex: Onprem + aws / aws+ azure / aws +gcp.. Main : Depends on the infra.. 
+
+aws direct connect : Dedicated connection between local network to aws..
+VPN
+_________________________________________________________________________________
+
+D: 25/05/2022
+
+AWS @ 7:30 AM (IST) by Mr. Avinash
+Day-1 https://youtu.be/M5TViNOY_hk
+Day-2 https://youtu.be/bgA1BDJiSgk
+Day-3 https://youtu.be/LT4FV8bHPN0
+Day-4 https://youtu.be/YG_BuYGeTjM
+
+
+Service Models of Cloud Computing : 
+
+Traditional Model : On-Premise : 
+
+Requirement : i n eed a webiste, need to work Anywhere from the world.
+--> SaaS : Lightsail
+--> PaaS : Beanstalk
+--> IaaS : ec2
+
+Build a website  and deliver to everyone..!!
+
+______________
+
+AWS Provides the Cloud Computing services. it offers Compute, Network, storage and Databse services on Pay-as-you-go. 
+
+2003 : Prepared documentation : Chris Pinkman and Benjamin Black
+2004 : SQS : Simple Queue Service 
+2006 - March : AWS Oficially Launched (s3, ec2, sqs)
+2012 : Annual Conference (AWS Re:Invent Nov-Dec)
+
+______________
+
+Security : Shared responsibility model for Security
+
+--> Security OF the Cloud : AWS Responsibility : DC, Physical security, Servers
+--> Security IN the Cloud : Customer Responsibility : Encryption, Mfa, Port restrictions.
+
+
+Global infrastructure : 
+How to create an AWS account
+IAM : Identity and Access management : Create users, Mange user access : least privilages mechanism
+S3 : Simple Storage Service : AWS Version of GDrive. (Storage classes/encrypt/versioning/lcr/crr)
+EC2 : Elastic compute cloud : Launch / run servers.. (windows launch & linux launch, storage, elb, asg, patching, management, groups, IAM role, cli)
+route53 : AWS DNS service : how to purchase domain, Map domain to aws resources, Routing.
+VPC : Virtual private cloud : Networking part.. (Ip address, public ip / private ip, subnet, cidr, VPC (public sn/private sn/vpn/tg/endpoints))
+RDS : Relational Database service : mysql/mssql/postgre/maria/aurora/oracle.. backup, HA, DR.. nosql/dynamodb, DAX, redshift, elasticache
+
+app services : cloud9, cdk, IaaC, Serverless (lambda), ECS (fargate), cicd
+
+
+
+Course: AWS
+Faculty: Mr. Avinash  Sir
+Date: 23-05-2022
+Fee Structure:
+8000/- with out videos (Including GST)
+
+12000/- with videos (Including GST)
+ 
+Payment Details 👇
+Bank Details :- 
+Name: Naresh i Technologies
+A/C No. 50200022639833     
+Bank: HDFC
+A/C Type: Current Account
+IFSC Code: HDFC0001627
+MICR Code: 500240035
+Branch Code: 001627
+Branch:  Ameerpet 
+
+Note: If you want to use Phonepe or Google Pay then follow  below steps.
+You can find the option Bank Transfer in Phonepe and Google pay. There you can enter our bank account number and you can transfer the amount. 
+
+Thanks & Regards
+Sandeep Admin (7997997809)
+
+AFTER MAKING  THE PAYMENT PLEASE COMPLETE THE FOLLOWING STEPS:-
+1. Please attach your payment screenshot and fill the details (Name, Mobile No, Email I'd, Course, Faculty name, Batch timings)and send mail to support@nareshit.com from your registered mail id.
+2. Please send your payment screenshot with details (Name, Mobile No, Email I'd, Course, Faculty name, Batch timings) to whatsapp 7997997809.
