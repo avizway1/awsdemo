@@ -40,41 +40,6 @@ Deployment Models : Public, Private, Community, Hybdrid
 
 ________________________________________________________________________________________
 
-Q : Who can learn AWS.??
-Ans : ANyone.. No Exp required to understand the AWS. (novoice)
-
-Q: Do we need to learn Linux.?
-Ans : Yes.. Basic OS knowledge required. (Free Linux Course).. Basic Linux.. 
-
-Q: AM into Operations (Sysadmins, networkadmin, storage admin, ABS, AppAdmin, System engineer), Learn aws..??
-ANS : BIG YES.. 
-
-Q: Am a developer, How AWS course helps me.? (Java, .net core, python, go, typescript ruby, node.js)
-Ans : CDK (Cloud development kit), Cloudformation (JSON/YAML), Cloud9)
-AWS Developer : 
-
-Q: What certifications this course covers..?
-Ans : Practitioner, sa-a, sysops-1, developer-a.. 700+
-
-Q: Is this course hands-on..? Realtime..??
-Ans; yes.. 95% hands-on.. Scenario based.. 
-
-Q: What migrations we cover..!!
-Ans : DMS, SMS (vmware, azure--> aws, gcp --> aws) : Videos
-
-Q: Does this course cover DevOps topics..??
-Ans : Yes.. AWS DevOps tools (Code commit, deploy, build, pipeline).. (Free Jenkins COurse.. Free GIT course)
-
-Only Web Browser with Interent..!!.. Putty/ command prompt
-
-7:30 - 8:30/45 AM IST.. 45 Days.. (MON-SAT.. Sat : practical session)
-
-Q: How many yrs of exp i can add once i done with the course..!!
-Ans : If you perform all the given tasks.. 3-4 Yrs exp.. 
-
-
-________________________________________________________________________________________
-
 D: 24/05/2021
 
 Deployment models : 
