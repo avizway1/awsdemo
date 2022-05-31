@@ -108,6 +108,84 @@ app services : cloud9, cdk, IaaC, Serverless (lambda), ECS (fargate), cicd
 
 
 
+
+https://www.udemy.com/course/jenkinswithavinash/?couponCode=FREEMAY
+
+https://www.udemy.com/course/linuxwithavinash/?couponCode=FREEMAY
+
+https://www.udemy.com/course/gitbyavinash/?referralCode=F7D62CDB4D61EADE1CC7
+
+
+___________
+
+
+Region : Geographical location / physical location : 26 (June, 2022). Every region contains multiple AZs. (min 2)
+AZ / Availability zone : DC / COmbination multiple DCs.. 
+PoP (point of Presence) / Edge Location : CDN (content delivery network).. We can deliver data/application with low latency.. 
+
+___________
+
+D: 31/05/2022
+
+
+https://aws.amazon.com/free
+
+12 Months Free Tier Eligibility : 90% of the times we use Free tier limitation..!!
+
+S3: 5 gb Standard storage with 2000 PUT, 20k GET operation
+ec2 : 750 Hrs/Month for t2.micro windows & Linux (1500 Hrs)
+rds : 750 hrs/Month for db.t2.micro
+
+s3 : Simple Storage Service : Storage service in AWS : AWS Version of Google Drive / Dropbox : Bucket (Folder with Unique name)
+ec2 : Elastic Compute Cloud : Service to launch and run our Servers (Instances).. 
+Instance = Server
+VPC : Virtual Private Cloud : Service to configure the Network.. 
+RDS : Relational Database Service : Launch and run database.. (mysql, mssql, oracle
+
+
+Root User : Email address to create AWS account : 
+
+Step 1 : Provide Email address, Password, Acocunt Name
+Step 2 : Provide Contact information : Personal : Name, Address	:fn, ln
+Step 3 : Provide the Payment information : cc/dc : visa, mastercard, amex : 2 INR (refund)
+Step 4 : Verify the Identity : Phone / Email 
+	--> Enter the ph no and call me now.. XXXX --> Call from aws, Enter the pin
+Step 5 : Choose the Support Plan
+
+1). Account and Billing Related - 24x7 support
+2). Service Limit Increase - 24x7 support
+3). Technical Support - Depends on SP
+
+--> Basic SP : Free, 1 & 2 Supports.. 7 COre area checks from AWS Trusted Advisor.. 
+No Technical Support.. Technical Support : AWS Developer Forum. AWS Knowledgebase articles.. AWS Re:Post
+
+--> Developer SP : Cost : 29$/Month.. 3 --> 12-24 Local Business hrs support from Cloud Support Associate.. 7 COre area checks from AWS Trusted Advisor.. 1 Primary contact / Unlimited tickets.. 
+General Guidance : < 24 Hrs
+System Impaired  : < 12 Hrs
+
+--> Business SP : 100$/Month.. 3 --> 24x7 phone, email and chat support from Cloud Support Engineer.. FUll AWS Trusted Advisor checks.. Unlimited users/unlimited tickets
+General Guidance : < 24 Hrs
+System Impaired  : < 12 Hrs
+Production system impaired : < 4 Hrs
+Production System Down : < 1 Hr
+
+--> Enterprise SP : 15,000$/Month.. 3 --> 24x7 phone, email and chat support from Sr. Cloud Support Engineer.. FUll AWS Trusted Advisor checks.. Unlimited users/unlimited tickets
+--> Architectural and Operation Reviews From AWS
+--> Dedicated TAM (technical account  manager)
+General Guidance : < 24 Hrs
+System Impaired  : < 12 Hrs
+Production system impaired : < 4 Hrs
+Production System Down : < 1 Hr
+Business Critical System Down : < 15 Min
+
+
+AWS Login Console : aws.com  .. https://aws.amazon.com/console
+
+
+Previous session recordings WhatsAPP him : AWS Avinash, 7:30 AM batch previous recording.. 
+Rajesh : 7997997808
+
+
 Course: AWS
 Faculty: Mr. Avinash  Sir
 Date: 23-05-2022
@@ -136,3 +214,9 @@ Sandeep Admin (7997997809)
 AFTER MAKING  THE PAYMENT PLEASE COMPLETE THE FOLLOWING STEPS:-
 1. Please attach your payment screenshot and fill the details (Name, Mobile No, Email I'd, Course, Faculty name, Batch timings)and send mail to support@nareshit.com from your registered mail id.
 2. Please send your payment screenshot with details (Name, Mobile No, Email I'd, Course, Faculty name, Batch timings) to whatsapp 7997997809.
+
+
+
+
+
+
