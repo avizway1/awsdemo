@@ -127,7 +127,6 @@ ___________
 
 D: 31/05/2022
 
-
 https://aws.amazon.com/free
 
 12 Months Free Tier Eligibility : 90% of the times we use Free tier limitation..!!
@@ -214,6 +213,73 @@ Sandeep Admin (7997997809)
 AFTER MAKING  THE PAYMENT PLEASE COMPLETE THE FOLLOWING STEPS:-
 1. Please attach your payment screenshot and fill the details (Name, Mobile No, Email I'd, Course, Faculty name, Batch timings)and send mail to support@nareshit.com from your registered mail id.
 2. Please send your payment screenshot with details (Name, Mobile No, Email I'd, Course, Faculty name, Batch timings) to whatsapp 7997997809.
+
+
+___________________________________________________________________________________
+
+D: 01/06/2022
+
+Enable MFA for Root User : 
+
+Multi Factor Authentication : 
+
+--> Virtual MFA : Google Authenticator, Authy 2 factor, Microsoft authenticator.. 
+--> hardware MFA : 
+--> u2f / Yuby 2 Key : 
+
+_____
+
+IAM User : 
+
+root credentials ...????
+
+Requirement : 
+Storage User : S3 : Need an IAM User with S3 permissions :..!! 
+
+
+Step 1 : 
+Username : s3admin : 
+Access Type : Management console / Prog access
+AWS Management console Access : GUI : Browser : Username, Password and Sign-In
+Programatic Access : CLI : cli, sdk, cdk : AccessKeyID and SecretAccessKey
+
+Pwd : auto generated and enforce user to create new pwd.
+
+Step 2 : Allocate Permissions : 
+Policy : Set of permissions on AWS : AWSS3FullAccess : 
+
+
+ec2admins : EC2FullAccess : 
+
+________________________________
+
+
+Task : create an AWS account and make it fully activated.
+
+Task 1 : Activate MFA for root user. Set alia for your root account.
+
+Task 2 : Create an IAM user, Allocate "S3FullAccess" to this user, Login as S3_user and verify his access on s3 service, Iam service & ec2 service. (He should be able to access only s3)
+
+Task 2 : Create an IAM user(Username : ec2_user), Allocate "EC2FullAccess" to this user, Login as ec2_user and verify his access on s3 service, Iam service & ec2 service. (He should be able to access only ec2)
+
+
+Least privilages mechanism : 
+
+==> All these users present in same aws account. 
+
+s3_admin: Storage service : Instead of root access : s3 full access
+ec2_admin : ec2 : compute service : Instead of root access : ec2 full access
+TL : All aws services : root access :  Instead of root access : IAM User with admin access 
+
+IAM : Identity and access management : We can create users, manage user accesses on aws services based on the user job role. 
+
+Policy : Docuemnt that contains set of permissions on aws environment. 
+
+
+
+
+
+
 
 
 
