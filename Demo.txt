@@ -251,17 +251,7 @@ Policy : Set of permissions on AWS : AWSS3FullAccess :
 
 ec2admins : EC2FullAccess : 
 
-________________________________
-
-
-Task : create an AWS account and make it fully activated.
-
-Task 1 : Activate MFA for root user. Set alia for your root account.
-
-Task 2 : Create an IAM user, Allocate "S3FullAccess" to this user, Login as S3_user and verify his access on s3 service, Iam service & ec2 service. (He should be able to access only s3)
-
-Task 2 : Create an IAM user(Username : ec2_user), Allocate "EC2FullAccess" to this user, Login as ec2_user and verify his access on s3 service, Iam service & ec2 service. (He should be able to access only ec2)
-
+_______________________________
 
 Least privilages mechanism : 
 
@@ -277,11 +267,55 @@ Policy : Docuemnt that contains set of permissions on aws environment.
 
 
 
+Task : create an AWS account and make it fully activated.
+
+Task 1 : Activate MFA for root user. Set alia for your root account.
+
+Task 2 : Create an IAM user, Allocate "S3FullAccess" to this user, Login as S3_user and verify his access on s3 service, Iam service & ec2 service. (He should be able to access only s3)
+
+Task 2 : Create an IAM user(Username : ec2_user), Allocate "EC2FullAccess" to this user, Login as ec2_user and verify his access on s3 service, Iam service & ec2 service. (He should be able to access only ec2)
+
+______________
+
+Policy : Set of Permissions on our aws account. Policy writtens in JSON format.
+--> AWS Managed - Job Function
+--> AWS Managed Policy
+--> Customer Managed Policy
+
+
+Password policy : 
+
+__________________
+
+Policy : Document contains set of permissions writtens in JSON format. Policy provide permissions on AWS resources for users/groups/roles.
+
+--> AWS Managed Policy : s3 (full, reaonly), ec2 (ec2read, moniroting, full)
+--> AWS Managed policy - Job Functions : Network Admin, Database Admin
+--> Customer Managed Policy : 
+
+Inline : Not a reusable policy. We can apply policy for specific resource.
+
+Requirement : IAM User required Full Access on AWS services, But not on "S3".
+
+**Deny always have highest privilages. If you all 100 times, but deny 1 times at any level, DENY will take effect. 
+
+S3 and EC2 Full Access As a single policy : 
+
+Task : Create a Policy to Activate MFA, if we associate this policy to an IAM user. 
+--> Create an IAM user, provide him "S3FullAccess"... Click on "security credentials", Go to Activate MFA option.. "Deny"... create a policy to allow only this particular operation.
+-> After associting this policy to S3user, it should allow him to enable/disable MFA.
+
+
+Task 1 : Create an IAM user and Provide "Administrator ACcess" and use same user throughout course.
+
+Task 2 : provide Billing level access for the IAM user you created in "TASK 1"
+
+
+Task 3 : I need an IAM user who have "Administrator Access", But no permissions on s3.
 
 
 
-
-
+No session tomorrow and monday..!!! Next session will be on Tuesday..!!!
 
 
 
