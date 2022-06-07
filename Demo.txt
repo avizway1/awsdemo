@@ -310,12 +310,30 @@ Task 1 : Create an IAM user and Provide "Administrator ACcess" and use same user
 
 Task 2 : provide Billing level access for the IAM user you created in "TASK 1"
 
-
 Task 3 : I need an IAM user who have "Administrator Access", But no permissions on s3.
 
 
 
-No session tomorrow and monday..!!! Next session will be on Tuesday..!!!
+
+https://github.com/avizway1/awsdemo/blob/main/Demo.txt
+
+
+_________________________________________________________________________________________________
+
+D: 07/06/2022
+
+Credentials report : 
+Inline Policy : 
+Permissions boundary : 
+How to track user activity : 
+
+
+
+
+
+
+
+
 
 
 
