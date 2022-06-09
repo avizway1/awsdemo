@@ -114,3 +114,58 @@ Expedited retrieval : Typically within 1-5 minutes when retrieving less than 250
 
 ______________________________________________________________________________________
 
+D: 09/06/2022
+
+If you are typing "Delete" ==> you'll get delete Marker. 
+If you are typing "perm Delete" ==> You wont get Delete marker.
+
+_________
+
+Version : AWS maintains multiple copies in s3 bucket. 
+--> Defaultly versioning will be in Suspended state.
+--> When versioning is enabled, If we delete an object
+
+Versioning : HIDE
+--> S3 will show most recent uploaded object only / Current version objects.
+--> We will get a Delete Marker. 
+--> TO get object back / undo delete, Set Version to SHOW, Delete the delete marker.
+
+Versioning : SHOW
+--> If we delete an object, it deletes permanently.
+
+_____________________________________________________________________________________
+
+Life Cycle Management Rule : 
+--> We can apply Rule to entire bucket
+--> We can limit rule to a prefix (Folder)
+--> We can limit rule to objects by specifing a "Tag"
+
+
+S3 Standard --> StandardIA/IT --> Glacier --> Delete
+S3 Standard --> Glacier --> Delete
+S3 Standard --> Delete
+
+
+Task : Create a Life CYcle management rule to transit current version objects from s3 standard to Delete after 2 Days.
+Transit previous version objects to Delete after 1 Day. 
+____________________
+
+CRR / SRR : 
+--> Source bucket and destination bucket must be enabled with versioning. 
+--> Existing objects will not replicate to the destination bucket.
+--> All future / subsequent uploads will replicate to destination bucket. 
+
+RTC : Replication time control : Data replicates to destination bucket with in 15 Min. (99.99% of the data) : COST US
+
+___
+Data transfer from One region to another region "cost us".
+Data transfer within a region won't cost us anything.
+_______________________
+
+aws s3 sync s3://source s3://target		==> 12:00AM   (task scheduler / cron job)
+_______________________
+
+Task : Create a bucket in mumbai, Configure Versioning. 
+Create anotheer bucker in Mumbai region only.. configure same region replication between these buckets.
+
+
