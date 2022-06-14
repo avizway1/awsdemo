@@ -254,6 +254,33 @@ S3 Transfer Acceleration is not supported for buckets with periods (.) in their 
 
 https://s3-accelerate-speedtest.s3-accelerate.amazonaws.com/en/accelerate-speed-comparsion.html?region=ap-south-1&origBucketName=avinash2
 
+
+_______________________________________________________________________________
+
+D: 14/06/2022
+
+Requirement : IAM user has its s3 bucket, he need to get access on his own bucket. : IAM Policy
+https://s3.console.aws.amazon.com/s3/buckets/bucketname
+
+Requirement : IAM User has s3 full access, But i want to limit this user access on "one particular" bucket. 
+
+Deny upload object operation on a particular bucket. : Bucket policy
+
+Bucket ARN : arn:aws:s3:::avinash.bucket
+IAM User ARN / Principal : arn:aws:iam::501170964283:user/s3user
+Effect : Allow / Deny : Deny
+Action / Operation : PutObject, DeleteBucket
+
+
+Object level / Inside bucket possible operation : arn:aws:s3:::avinash.bucket/*
+Bucket level : arn:aws:s3:::avinash.bucket
+
+
+Task : An IAM user required full access on all s3 resources, but not on one particular bucket (Upload/put object, Delete Object to the mentioned particular bucket, Deny Delete bucket, Deny Bucket policy)
+
+Task : Create an IAM user.. provide "AdministratorAccess", But he should work only on "mumbai region". (perform at IAM level).
+___________________
+
 Object Lock : 
 --> Versioning must be enabled.
 Permanently allows objects in this bucket to be locked. Additional Object Lock configuration is required in bucket details after bucket creation to protect objects in this bucket from being deleted or overwritten.
@@ -261,13 +288,86 @@ Permanently allows objects in this bucket to be locked. Additional Object Lock c
 Governance : Users with specific IAM permissions can overwrite or delete protected object versions during the retention period.
 
 Compliance : No users can overwrite or delete protected object versions during the retention period.
-_____
+_____________
 
 
+Performance : 
+3500 PUT Object per second per prefix
+5500 GET Object per second per prefix
+
+Increase the uniqueness for the object names.
+Use more prefixes
+
+9th-school1
+10-school2
+picnic-school3
+
+inter2
+grad3
 
 
+School
+Schools day 1
+Photo2 
+
+College
+Photo3
+Photo4
+
+vacation
+Photo5
+photo6
+
+Pricing : https://calculator.aws/
+Free Tier : https://aws.amazon.com/free
 
 
+Storage Class Analysis : Analyze storage access patterns to help you decide when to transition objects to the appropriate storage class. 
+
+Cross-origin resource sharing (CORS)
+The CORS configuration, written in JSON, defines a way for client web applications that are loaded in one domain to interact with resources in a different domain.
+
+________________________________________________________________________________
 
 
+Performance : 
+
+--> Increase the randomness in object names.
+--> Use the prefixes. 
+
+--> 3500 PUT/Sec.. 5500 GET/Sec.. If we are directly storing all data in s3 platform.
+
+In S3, Perfix place imp role. /prefix we will get 3500 put & 5500 get operations.
+
+Req: 35,000 PUT.. --> Create 10 folders and upload data simumtaniously. 
+
+__________________
+
+FOr Put of new object, "read after write consistency". (If upload success, we can start accessing the data without any delay)
+Eventual consistenacy For overwrite an object / delete an object. (AFter delete shown as success, we may get response for the request for some milli seconds) (You have uploaded object with latest data and trying to access, you have chances to get previous data object) 
+
+__________________
+
+How to access s3 using 3rd party applications.!!
+Ans : S3 Browser, CyberDuck, WinSCP, CLoudberry explorer
+
+https://www.msp360.com/explorer/windows/amazon-s3.aspx
+
+
+Task : Try any of the s3 supported 3rd party application. 
+
+________________
+
+If we have larger file to uploade to s3 paltform, We can initiate the "Multi Part Upload". 
+
+_________________
+
+onlinetraining@nare.
+
+CC us: 
+avizway@gmail.com
+Phani@nareshit.com
+
+
+https://join.slack.com/t/awswithavinash/shared_invite/zt-199j47781-bQMAvHc0gbGd04EtZbQevQ
 
